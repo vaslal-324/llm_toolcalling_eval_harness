@@ -1,0 +1,47 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "backend": "openai",
+  "timestamp": "2026-10-24 12:20:26",
+  "modes": {
+    "agent": {
+      "n": 40,
+      "accuracy": 100.0,
+      "by_category": {
+        "arithmetic": 100.0,
+        "data": 100.0,
+        "dates": 100.0,
+        "multi_step": 100.0,
+        "units": 100.0
+      },
+      "avg_steps": 2.23,
+      "avg_tool_calls": 1.23,
+      "tool_error_rate": 2.0,
+      "recovered_after_error": 1,
+      "runs_with_tool_error": 1,
+      "avg_tokens": 1428,
+      "avg_latency_s": 5.85,
+      "p95_latency_s": 9.95,
+      "crashes": 0
+    },
+    "baseline": {
+      "n": 40,
+      "accuracy": 62.5,
+      "by_category": {
+        "arithmetic": 100.0,
+        "data": 0.0,
+        "dates": 75.0,
+        "multi_step": 16.7,
+        "units": 100.0
+      },
+      "avg_steps": 1.07,
+      "avg_tool_calls": 0.0,
+      "tool_error_rate": 0.0,
+      "recovered_after_error": 0,
+      "runs_with_tool_error": 0,
+      "avg_tokens": 824,
+      "avg_latency_s": 5.78,
+      "p95_latency_s": 15.57,
+      "crashes": 0
+    }
+  }
+}

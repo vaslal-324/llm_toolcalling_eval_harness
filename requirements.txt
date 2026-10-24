@@ -1,0 +1,4 @@
+# Works on Python 3.8 and newer (Ubuntu 20.04 ships 3.8).
+openai>=1.40
+matplotlib>=3.5
+pytest>=7.0
